@@ -1,17 +1,14 @@
-[gui]
-	encoding = utf-8
 [alias]
 	br = branch
-	ce = clone
 	cf = config
 	ci = commit
 	cl = clean
 	co = checkout
-	cp = clone -c http.proxy=socks5://localhost:7890
 	mg = merge
-	ro = remote
 	rt = restore
 	st = status
 	sw = switch
 [core]
 	longpaths = true
+[http "https://github.com"]
+	proxy = http://127.0.0.1:7897
