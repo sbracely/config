@@ -1,2 +1,0 @@
-- `Ctrl(left)` <= => `Caps Lock`
-- `\` <= => `Backspace`
